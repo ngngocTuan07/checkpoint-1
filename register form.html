@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>REGISTER FORM</h1>
+       
+        <div class="secondcontainer">
+
+            <div class="space"></div>
+            <form action="/action_page.php"></form>
+            <input class="inp" type="text" id="username" placeholder="enter your username" required>
+            <div class="space"></div>
+            
+            <input class="inp" type="password" id="password" placeholder="enter your password" required>
+            
+            <p>D.O.B</p>
+            <input class="inp" type="date" name="" id="dob" required>
+            <div class="space"></div>
+            <label for="gender">Gender:</label>
+            <input type="gender" id="gender" placeholder="Gender" class="gen" required >
+            <div class="space"></div>
+            <button  class="btn"type="button" onclick="authentication()" >Register</button>
+            <h2 id="login_message">
+
+        </div>
+    </div>
+    <script src="register.js"></script>
+</body>
+
+</html>
